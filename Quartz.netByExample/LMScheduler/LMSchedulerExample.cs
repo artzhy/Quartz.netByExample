@@ -43,8 +43,8 @@ namespace Quartz.netByExample.LMScheduler
             ISchedulerFactory sf = new StdSchedulerFactory(properties);
             IScheduler sched = sf.GetScheduler();
 
-            log.Warn("***** Deleting existing jobs/triggers *****");
-            sched.Clear();
+            //log.Warn("***** Deleting existing jobs/triggers *****");
+            //sched.Clear();
 
             log.Info("------- Initialization Complete -----------");
 
